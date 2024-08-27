@@ -1,0 +1,1 @@
+Despite this being thinked for operating over raw python, for demo i am going to try to make a exe version
