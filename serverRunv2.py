@@ -11,10 +11,11 @@ CONTROL_PORT = 9548
 filename='config.ini'
 
 
+
 scripts = {
-    "audio_server": "python audioServerv2.py",
-    "video_server": "python videoServer.py",
-    "video_mouse_server": "python videoMouseServer.py"
+    "audio_server": "python audioServerv2.py"
+    # "video_server": "python videoServer.py",
+    # "video_mouse_server": "python videoMouseServer.py"
 }
 
 processes = {}

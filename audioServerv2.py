@@ -14,7 +14,6 @@ FORMAT = pyaudio.paInt16
 def handle_client_registration(reg_server_socket):
 #    #Handles client registration and configuration file reception.
     
-    
     client_socket, client_address = reg_server_socket.accept()
     client_ip, client_port = client_address
     print(f"\tconnection from {client_ip}:{client_port}")

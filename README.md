@@ -1,7 +1,10 @@
 Despite this being thinked for operating over raw python, for demo i am going to try to make a exe version
 
 
-[Spanish]
+# NUEVOS PLANES
+Hacer una app en python o en java que sea capaz de conectarse a este dichoso socket para que una persona que no tenga bluetooth en su ordenador de torre, pueda utilzar su movil para recibir a traves de conexion a internet, esa señal y pasarla a sus auriculares bluetooth.
+
+# [Spanish]
 
 Esta utilidad permite bien por medio de python para sistemas que no sean WINDOWS o por ficheros ejecutables exe, hacer un envío de la pantalla con la menor latencia posible.
 
@@ -21,9 +24,8 @@ el usuario a ese lado de la conexion puede cambiar libremente ese fichero ya que
 
 En el lado del cliente se pueden ejecutar los 2 scripts por separado o solo 1 de ellos en función del interés.
 
-En resumen
 
-PARA EJECUTAR
+# EJECUTAR
 
 Yo recomiendo tener instalado VCABLE como salida virtual, podeis probar a utilizar cualquier otro dispositivo.
 
