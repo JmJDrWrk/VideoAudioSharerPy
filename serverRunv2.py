@@ -13,7 +13,7 @@ filename='config.ini'
 
 
 scripts = {
-    "audio_server": "python audioServerv2.py"
+    "audio_server": "python androidTestServer.py"
     # "video_server": "python videoServer.py",
     # "video_mouse_server": "python videoMouseServer.py"
 }
