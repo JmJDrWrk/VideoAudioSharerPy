@@ -20,10 +20,10 @@ deviceAutoTarget = config['deviceAutoTarget']
 
 # Restart Signal
 # Restart Signal
-commandSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+# commandSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-command = "restart audio_server"  # Make sure to specify which server to restart
-commandSocket.sendto(command.encode(), (SERVER_IP, CONTROL_PORT))
+# command = "restart audio_server"  # Make sure to specify which server to restart
+# commandSocket.sendto(command.encode(), (SERVER_IP, CONTROL_PORT))
 
 # restarted = commandSocket.recv(1024)#Wait server to wake up again
 # print('What',restarted.decode())
@@ -71,7 +71,7 @@ try:
         
         file.tell()
         
-        client_socket.recv(1024)
+        # client_socket.recv(1024)
         
 
     except ConnectionError as e:
